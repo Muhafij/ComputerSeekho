@@ -12,8 +12,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan("com.example.*")
 public class ComputerSeekhoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ComputerSeekhoApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(ComputerSeekhoApplication.class, args);
+    }
 }
